@@ -5,11 +5,6 @@ import { GameContext } from "./GameProvider.js"
 export const GameForm = props => {
     const { createGame, getGameTypes, gameTypes } = useContext(GameContext)
 
-    /*
-        Since the input fields are bound to the values of
-        the properties of this state variable, you need to
-        provide some default values.
-    */
     const [currentGame, setCurrentGame] = useState({
         skillLevel: 1,
         numberOfPlayers: 0,
