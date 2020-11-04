@@ -42,7 +42,7 @@ export const GameForm = props => {
             </fieldset>
             <fieldset>
                 <div className="form-group">
-                    <label htmlFor="maker">Your Name: </label>
+                    <label htmlFor="maker">Game Maker: </label>
                     <input type="text" name="maker" required autoFocus className="form-control"
                         value={currentGame.maker}
                         onChange={handleControlledInputChange}
